@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Google Font Link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!--Css Link-->
+        <link rel="stylesheet" href="assets/css-files/general.css">
+        <link rel="stylesheet" href="assets/css-files/navbar.css">
+        <link rel="stylesheet" href="assets/css-files/footer.css">
+        <link rel="stylesheet" href="assets/css-files/timeline.css">
+        <link rel="stylesheet" href="assets/css-files/project.css">
+        <link rel="stylesheet" href="assets/css-files/style.css">
+        <link rel="stylesheet" href="assets/css-files/about-this-web.css">
+        <link rel="stylesheet" href="assets/css-files/aboutme.css">
+    <title>Harry</title>
+</head>
+<body>
+    <header class="nav-container about-nav">
+        <nav>
+            <div class="logo">HARRY</div>
+            <ul class="Side-Bar">
+                <li onclick="CloseSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="CloseNav" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path>
+                    </svg>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+            </ul>
+            <ul>
+                <img id="icon" src="assets/images/sun.png" alt="">
+                <li><a class="HideOnMobile li-with-border" href="index.html">Home</a></li>
+                <li><a class="HideOnMobile li-with-border" href="projects.html">Projects</a></li>
+                <li><a class="HideOnMobile" href="aboutme.html">About me</a></li>
+                <li onclick="ShowSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ShowNav" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+                    </svg>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+    <section id="aboutme">
+        <main>
+            <div class="label footer-label scroll">
+                <h1>ABOUT ME</h1>
+                <h3>Scroll Down</h3>
+                <svg id="mySVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="currentColor">
+                    <path d="M12 15.6315L20.9679 10.8838L20.0321 9.11619L12 13.3685L3.96788 9.11619L3.0321 10.8838L12 15.6315Z"></path>
+                </svg>   
+            </div>
+            <div class="blured"></div>
+            <img src="assets/images/3d-robot.png" class="Robot" alt="Robot">
+        </main>    
+    </section>
+    <section id="aboutme-story">
+        <article class="story-wrapper">
+            <div class="story-col">
+                <h1>Introduction</h1>
+                <h2>Welcome!</h2>
+                <p>
+                    Hi there, I’m Harry De Torres, an aspiring Information Technology student currently 
+                    navigating through my first year of college. This website serves as a window into my 
+                    journey, passions, and projects. From childhood curiosities to collegiate ambitions, 
+                    join me as I explore the realms of programming and web design.
+                </p>
+            </div>
+            <div class="story-col">
+                <h1>Early Years and Gaming Addiction</h1>
+                <h2>Fueled by Curiosity</h2>
+                <p>
+                    My fascination with technology ignited early on, with gaming serving as my gateway 
+                    into the digital world. From concocting imaginative excuses to skip school for a 
+                    day of gaming to hours spent mastering virtual realms, my childhood was filled with 
+                    a love for gaming. Despite early dreams of creating my own game, the complexities of 
+                    game development eluded me. Yet, my thirst for understanding persisted.
+                </p>
+            </div>
+            <div class="story-col">
+                <h1>Journey to Web Development</h1>
+                <h2>Discovering My Path</h2>
+                <p>
+                    My fascination with technology ignited early on, with gaming serving as my gateway 
+                    into the digital world. From concocting imaginative excuses to skip school for a 
+                    day of gaming to hours spent mastering virtual realms, my childhood was filled 
+                    with a love for gaming. Despite early dreams of creating my own game, the complexities 
+                    of game development eluded me. Yet, my thirst for understanding persisted.
+                </p>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="label   footer-label">
+            <h3>EMAIL ME</h3>
+        </div>
+        <div class="email about-email">Hdetorres1134@gmail.com</div>
+        <h4>©2024 by: harry | all rights reserve  </h4>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

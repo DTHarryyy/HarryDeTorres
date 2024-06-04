@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--Google Font Link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!--Css Link-->
+        <link rel="stylesheet" href="assets/css-files/general.css">
+        <link rel="stylesheet" href="assets/css-files/navbar.css">
+        <link rel="stylesheet" href="assets/css-files/footer.css">
+        <link rel="stylesheet" href="assets/css-files/timeline.css">
+        <link rel="stylesheet" href="assets/css-files/project.css">
+        <link rel="stylesheet" href="assets/css-files/style.css">
+        <link rel="stylesheet" href="assets/css-files/about-this-web.css">
+        <link rel="stylesheet" href="assets/css-files/aboutme.css">
+        <link rel="stylesheet" href="assets/css-files/socials.css">
+    <title>Harry</title>
+</head>
+<body>
+    <header class="nav-container">
+        <nav>
+            <div class="logo">HARRY</div>
+            <ul class="Side-Bar">
+                <li onclick="CloseSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="CloseNav" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path>
+                    </svg>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+            </ul>
+            <ul>
+                <img id="icon" src="assets/images/sun.png" alt="">
+                <li><a class="HideOnMobile li-with-border" href="index.html">Home</a></li>
+                <li><a class="HideOnMobile li-with-border" href="projects.html">Projects</a></li>
+                <li><a class="HideOnMobile" href="aboutme.html">About me</a></li>
+                <li onclick="ShowSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ShowNav" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+                    </svg>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Projects"> 
+        <main>
+            <img src="assets/images/3d-media.png" alt="">
+            <div class="label footer-label scroll">
+                <h3>Scroll Down</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="currentColor"><path d="M12 15.6315L20.9679 10.8838L20.0321 9.11619L12 13.3685L3.96788 9.11619L3.0321 10.8838L12 15.6315Z"></path></svg>
+            </div>
+        </main>
+    </section>
+
+    <sections id="proj-links">
+        <main>
+            <div class="proj-item-con">
+                <div class="cards card1">
+                    <h1>Photos</h1>
+                    <p>
+                        Come see my portrait 
+                        and landscape photography, 
+                        featured in exhibitions and publications.
+                    </p>
+                    <a class="buttonC" href="https://drive.google.com/drive/folders/1ArT4wN2tGI47gwGqtlvISdM9MnxyWU0p?usp=drive_link">See Photos</a>
+                </div>
+                <div class="cards card1">
+                    <h1>Videos</h1>
+                    <p>
+                        Check out my creative promotional videos 
+                        and documentaries, known for their impact.
+                    </p>
+                    <a class="buttonC" href="https://drive.google.com/drive/folders/1g_GWF5X-gwxpakY1ubczqDx3ua4zb3J2?usp=drive_link">See Videos</a>
+                </div>
+                <div class="cards card2">
+                    <h1>Web Projects</h1>
+                    <p>
+                        Explore my user-friendly websites, crafted with
+                        the latest technologies for a seamless experience.
+                    </p>
+                    <a class="buttonC" href="socials.html">See Web Projects</a>
+                </div>
+                <div class="cards card2">
+                    <h1>Graphic Design</h1>
+                    <p>
+                        Discover my branding, print design, and digital 
+                        illustrations, where creativity meets strategy.
+                    </p>
+                    <a class="buttonC" href="https://drive.google.com/drive/folders/1g_GWF5X-gwxpakY1ubczqDx3ua4zb3J2?usp=drive_link">See Graphic Design</a>
+                </div>
+            </div>
+        </main>
+    </sections>
+
+    <footer>
+        <div class="label footer-label">
+            <h3>EMAIL ME</h3>
+        </div>
+        <div class="email">Hdetorres1134@gmail.com</div>
+        <h4>©2024 by: harry | all rights reserve  </h4>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

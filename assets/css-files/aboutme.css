@@ -1,0 +1,107 @@
+:root{
+    --black-color: #111111;
+    --white-color: #f0f0f0;
+    --blue-color: #0918CC;
+    --light-green-color: #AAC791;
+}
+.about-nav{
+    background-color: transparent;
+}
+.blured{
+    height: 400px;
+    position: fixed;
+    aspect-ratio: 1/1;
+    filter: blur(150px);
+    background-color: var(--blue-color); 
+    z-index: -1;
+    border-radius: 50%;
+}
+#aboutme{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 80px;
+    z-index: -1999;
+    position: relative;
+}
+#aboutme main{
+    max-width: 1250px;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+    position: relative;
+}
+@media (max-width:525px) {
+    #aboutme main img{
+        width: 100%;
+        z-index: -1;
+    }
+}
+#aboutme main img{
+    max-width: 350px;   
+    animation: loopDownUp 3s infinite;
+    position: absolute;
+    z-index: -1;
+}
+.scroll{
+    position: relative;
+    z-index: -1;
+}
+.scroll h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.aboutme-label{
+    margin: 150px 0 25px 0;
+}
+#aboutme-story{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: auto;
+    width: 100%;
+    padding: 30px 20px;
+}
+.story-wrapper{
+    max-width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.story-col{
+    backdrop-filter: blur(100px);
+    width: 400px;
+    height: 400px;
+    padding: 30px 20px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: -1;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.story-col h1{
+    font-size: 1.5rem;
+    text-align: left;
+}
+.story-col h2{
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: 300;
+}
+.story-col p{
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+@media (max-width: 659px) {
+    .story-col{
+        width: 100%;
+        height: auto;
+    }
+    .story-wrapper{
+        width: 100%;
+    }
+}

@@ -1,0 +1,45 @@
+:root{
+    --black-color: #111111;
+    --white-color: #f0f0f0;
+    --blue-color: #0918CC;
+    --light-green-color: #AAC791;
+}
+.footer-label{
+    margin: 0;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+}
+.email{
+    width: 650px;
+    background-color: var(--blue-color);
+    margin: 30px 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #f0f0f0;
+}
+@media (max-width: 650px) {
+    .email{
+        width: 100%;
+    }
+    footer{
+        padding: 0 20px;
+    }
+}
+footer h4{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.footer-label h3{
+    font-size: clamp(2rem, 1rem + 4vw, 4rem);
+}
